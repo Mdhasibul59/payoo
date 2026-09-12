@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,20 +15,21 @@
 <body class="bg-[#f4f5f7] h-screen flex justify-center items-center">
     <form class="w-87.5  bg-white pt-11 pb-9 px-6 pb- rounded-2xl relative">
         <div>
-            <label for="" class="font-bold">Mobile Number</label>
+            <label for="mobile-number" class="font-bold">Mobile Number</label>
             <br>
-            <input type="text" class="input rounded-2xl bg-[#F4F5F7] border-none my-3" placeholder="Enter your name" />
+            <input type="text" id="mobile-number" class="input rounded-2xl bg-[#F4F5F7] border-none my-3" placeholder="Enter your name" />
         </div>
         <div>
-            <label for="" class="font-bold">4 Digit Pin</label>
+            <label for="pin-number" class="font-bold">4 Digit Pin</label>
             <br>
-            <input type="text" class="input rounded-2xl bg-[#F4F5F7] border-none my-3"
+            <input type="text" id="pin-number" class="input rounded-2xl bg-[#F4F5F7] border-none my-3"
                 placeholder="Enter 4 digit pin" />
         </div>
-        <button class="btn bg-[#0874F2] w-full text-white rounded-2xl mt-3">Login</button>
+        <button id="loginBtn" class="btn bg-[#0874F2] w-full text-white rounded-2xl mt-3">Login</button>
         <img src="resources/assets/bg.png" alt="" class="absolute -top-30 right-5 pointer-events-none">
         <img src="resources/assets/Group.png" alt="" class="absolute -top-25 right-32 pointer-events-none">
     </form>
+    <script src="script.js"></script>
 </body>
 
 </html>
